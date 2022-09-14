@@ -32,3 +32,10 @@ console.log("Total Days : " + totalWorkingDays + " Total Hrs: " + totalEmpHrs + 
 function calculateDailyWage(totalEmpHrs){
     return totalEmpHrs*WAGE_PER_HOURS;
 }
+
+let totEmpWage=0;
+function sum(dailyWage){
+    totEmpWage+=dailyWage
+}
+empDailyWageArr.forEach(sum)
+    console.log("UC7A ----- Total Days : " + totalWorkingDays + " Total Hrs: " + totalEmpHrs + " Emp Wage : " + empWage);
